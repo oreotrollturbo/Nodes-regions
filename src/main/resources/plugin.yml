@@ -1,0 +1,12 @@
+name: nodes-regions
+version: '${project.version}'
+main: org.oreo.nodesregions.Nodes_regions
+api-version: '1.20'
+
+
+commands:
+
+  regions:
+    description: The command to manage nodes regions
+    usage: /<command>
+    aliases: [regions]
